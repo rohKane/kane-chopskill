@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chopping</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="google-site-verification" content="S-FJQGrin5Z7C-YheOScSZRfMpd2wcrPb4pWS3L2zf0" />
+        <link rel="stylesheet" type="text/css" href="puzzle.css">
+        <link rel="stylesheet" type="text/css" href="Chopping.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+        <script src="Chopping.js"></script>
+    </head>
+    <body>
+        <div class="hack-box-container">
+            <div class="outer-container">
+                <div class="info-container">
+                    <embed class="gamePad" src="gamePad.svg">
+                    <h2>Alphabet</h2>
+                    <p>Tap the letters in order. bet ya can't do it fast</p>
+                </div>
+                <div class="message-container">
+                    <div class="lose-message">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>Failed!</p>
+                    </div>
+                    <div class="win-message">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Success!</p>
+                    </div>
+                    <div class="reset-message">
+                        <i class="fas fa-hourglass-start"></i>
+                        <p>Reset!</p>
+                    </div>
+                </div>
+                <div class="hack-box">
+                    <div class="lock-container" id="container">
+                        <div class="lock-row"></div>
+                        <div class="lock-row"></div>
+                        <div class="lock-row"></div>
+                    </div>
+                </div>
+            <div class="timer-container">
+                <div class="timer-progress-bar"></div>
+            </div>
+        </div>  
+    </body>
+</html>
