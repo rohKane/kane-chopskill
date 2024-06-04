@@ -1,4 +1,5 @@
 # kane-chopskill
+**NP 4.0 inspired alphabet typing minigame integration into fivem the whole minigame code is from [MaximilianAdF/NoPixel-MiniGames-4.0)](https://github.com/MaximilianAdF/NoPixel-MiniGames-4.0) so all credit goes to them and also the method that i used to do this integration is from [cinquina/five-repairkit](https://github.com/cinquina/five-repairkit/tree/main) so credit goes to them aswell.**
 
 ```
 --- Single Minigame export method ---
